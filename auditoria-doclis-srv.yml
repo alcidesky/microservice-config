@@ -16,6 +16,3 @@ spring:
   jpa:
     database-platform:
       org.hibernate.dialect.Oracle12cDialect
-  profiles:
-    active:
-      test-desa
