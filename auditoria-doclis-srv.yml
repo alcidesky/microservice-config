@@ -1,18 +1,11 @@
 jwk:
-  uri:
-    https://si-k8s-dev.partners.invap.com.ar/auth/realms/PlanificadorRestApi/protocol/openid-connect/certs
+  uri: https://si-k8s-dev.partners.invap.com.ar/auth/realms/PlanificadorRestApi/protocol/openid-connect/certs
 spring:
-  datasource:
-    driver-class-name:
-      oracle.jdbc.OracleDriver
-    maximum-pool-size:
-      15
-    password:
-      sitec
-    url:
-      jdbc:oracle:thin:@oracle-muleto.invap.com.ar:1521:sitest
-    username:
-      apps_si#sitec
+    datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    maximum-pool-size: 15
+    password: sitec
+    url: jdbc:oracle:thin:@oracle-muleto.invap.com.ar:1521:sitest
+    username: apps_si#sitec
   jpa:
-    database-platform:
-      org.hibernate.dialect.Oracle12cDialect
+    database-platform: org.hibernate.dialect.Oracle12cDialect
