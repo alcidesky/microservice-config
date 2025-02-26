@@ -1,6 +1,6 @@
 jwk:
   uri:
-    https://si-k8s-dev.partners.invap.com.ar/auth/realms/PlanificadorRestApi/protocol/openid-connect/certs;
+    https://si-k8s-dev.partners.invap.com.ar/auth/realms/PlanificadorRestApi/protocol/openid-connect/certs
 spring:
   datasource:
     driver-class-name:
