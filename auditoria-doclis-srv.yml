@@ -1,7 +1,7 @@
 jwk:
   uri: https://si-k8s-dev.partners.invap.com.ar/auth/realms/PlanificadorRestApi/protocol/openid-connect/certs
 spring:
-    datasource:
+  datasource:
     driver-class-name: oracle.jdbc.OracleDriver
     maximum-pool-size: 15
     password: sitec
