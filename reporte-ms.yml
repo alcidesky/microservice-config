@@ -1,0 +1,2 @@
+fallback: 
+  uri: "http://localhost:8787/auditoria-doclis-srv-fallback/auditoriaDoclis/api/v0.0/auditoria/{1}"
